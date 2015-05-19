@@ -8,3 +8,11 @@ section[data-background] h6 {
   display: inline-block;
   padding: 10px !important;
 }
+
+blockquote {
+  background: rgba(123,123,123,0.4) !important;
+}
+
+.twitter-tweet {
+  display: inline-block !important;
+}
