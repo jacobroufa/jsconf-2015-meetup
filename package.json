@@ -1,22 +1,17 @@
 {
-  "name": "reveal.js",
-  "version": "3.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
+  "name": "jsconf-2015-meetup",
+  "version": "0.0.0",
+  "description": "Maintaining a Local Dev Meetup",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
     "start": ""
   },
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
-  },
+  "author": "Jacob M. Roufa",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/jacobroufa/jsconf-2015-meetup.git"
   },
   "engines": {
     "node": "~0.10.0"
@@ -30,7 +25,7 @@
   "devDependencies": {
     "grunt-contrib-qunit": "~0.5.2",
     "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-cssmin": "~0.12.2",
+    "grunt-contrib-cssmin": "~0.4.1",
     "grunt-contrib-uglify": "~0.2.4",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sass": "~0.14.0",
@@ -39,11 +34,5 @@
     "grunt-zip": "~0.7.0",
     "grunt": "~0.4.0",
     "node-sass": "~0.9.3"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
-    }
-  ]
+  }
 }

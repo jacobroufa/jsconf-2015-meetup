@@ -1,0 +1,10 @@
+section[data-background] h1,
+section[data-background] h2,
+section[data-background] h3,
+section[data-background] h4,
+section[data-background] h5,
+section[data-background] h6 {
+  background: rgba(123,123,123,0.4);
+  display: inline-block;
+  padding: 10px !important;
+}
