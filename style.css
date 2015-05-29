@@ -16,3 +16,7 @@ blockquote {
 .twitter-tweet {
   display: inline-block !important;
 }
+
+section img {
+  max-height: 450px !important;
+}
